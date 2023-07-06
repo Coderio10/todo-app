@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body class="body">
+    <header></header>
+    <main>
+      <!-- header -->
+      <nav>
+        <ul>
+          <li>
+            <p>LOGO</p>
+          </li>
+          <li>
+            <label for="mode"><img id="toggleIcon" src="./images/icon-sun.svg" alt="toggle-icon"></label>
+            <input type="checkbox"  id="mode">
+          </li>
+        </ul>
+      </nav>
+      <!-- input section -->
+      <section>
+        <form class="form" id="form">
+          <span></span>
+          <input type="text" id="content" placeholder="Create a new todo...">
+        </form>
+      </section>
+      <!-- Todo list section -->
+      <section class="todo-sec">
+        <ul id="todoUi">
+          <li class="list">Add todo</li>
+        </ul>
+        <!-- filter section -->
+        <div class="filter-sec">
+          <p id="itemsno">items left</p>
+          <div>
+            <p id="allbtn">All</p>
+            <p id="activebtn">Active</p>
+            <p id="completedbtn">Completed</p>
+          </div>
+          <p id="clearbtn">Clear completed</p>
+        </div>
+      </section>
+      
+    </main>
+</body>
+<script src="script.js" defer></script>
+<script>
+  
+</script>
+</html>
